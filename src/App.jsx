@@ -8,9 +8,9 @@ import Card from "./componets/layout/Card";
 
 export default props => (
     <div className="App">        
-        <Card titulo="Componente com Filhos">
+        <Card titulo="#03 - Componente com Filhos">
             <ComFilhos>
-                <ul>
+                <ul> 
                     <li>Ana</li>
                     <li>bia</li>
                     <li>Lia</li>
@@ -18,11 +18,11 @@ export default props => (
                 </ul>
             </ComFilhos>
         </Card>
-        <Card titulo="Componente com Parametro">
+        <Card titulo="#02 - Componente com Parametro">
             <ComParametro titulo="Esse é o título" 
             subtitulo ="Esse é o subtítulo" />
         </Card>
-        <Card titulo="Primeiro Componente">
+        <Card titulo="#01 - Primeiro Componente">
             <Primeiro/>
         </Card>
 
