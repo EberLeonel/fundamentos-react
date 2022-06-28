@@ -2,11 +2,18 @@ body {
     font-family: Oswald;
     font-weight: 300;
     font-size: 1.4rem;
-    background-color: #444;
-    color: #fff;
+    background-color: rgb(47, 47, 47);
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
 h1, h2 {
-    font-weight: 300;
+    font-weight: 600;
+}
+
+span {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: medium;
+    color: rgb(110, 63, 63);
 }
